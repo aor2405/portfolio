@@ -21,7 +21,7 @@ export default function Example() {
             <div className="relative flex items-center justify-between h-16">
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <Link href="/">
-                  <p className="pl-6 text-xl text-yellow-500 w-52 sm:pl-0 cursor-pointer">
+                  <p className="text-xl font-paragraph text-yellow-500 w-52 cursor-pointer ">
                     Adam O'Reilly
                   </p>
                 </Link>
@@ -31,7 +31,7 @@ export default function Example() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="px-3 py-2 rounded-md text-lg font-medium"
+                        className="px-3 py-2 rounded-md text-lg font-medium font-paragraph"
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}

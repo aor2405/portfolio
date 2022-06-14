@@ -25,7 +25,7 @@ const mockData = [
     description: 'Full stack application with CRUD functionality',
     href: '/application/recipes',
     image:
-      'https://res.cloudinary.com/dd2duttda/image/upload/v1654681851/Screenshot_2022-06-08_at_13.46.39_nbxasw.png',
+      'https://res.cloudinary.com/dd2duttda/image/upload/v1655120369/Screenshot_2022-06-13_at_15.39.13_obmksl.png',
     style:
       'max-w-7xl border rounded-2xl py-2 bg-gradient-to-r from-orange-50 to-red-100 mt-12 sm:grid sm:grid-cols-2 sm:my-12',
   },
@@ -44,17 +44,21 @@ export default function homepage() {
   return (
     <>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="font-extrabold max-w-xs pt-12 text-5xl sm:max-w-2xl sm:text-7xl">
+        <div className="font-extrabold font-header max-w-xs pt-12 text-5xl sm:max-w-2xl sm:text-7xl">
           My name is
           <span className="text-yellow-500"> Adam</span> and I am a software
-          developer
+          developer.
         </div>
-        <h2 className="mt-12 text-2xl sm:text-4xl">Newest Projects</h2>
+        <h2 className="mt-12 font-paragraph text-2xl sm:text-4xl">
+          Newest Projects
+        </h2>
         {mockData.map((item, idx) => (
           <div key={idx} className={item.style}>
             <div className="mt-2 ml-2 sm:my-12 sm:ml-8">
-              <h2 className="text-xl text-center sm:text-left">{item.title}</h2>
-              <p className="text-4xl text-center mx-2 mt-2 sm:text-left sm:mx-0 sm:mt-3">
+              <h2 className="text-xl text-center font-header sm:text-left">
+                {item.title}
+              </h2>
+              <p className="text-4xl text-center font-paragraph mx-2 mt-2 sm:text-left sm:mx-0 sm:mt-3">
                 {item.description}
               </p>
               <Link href={item.href}>
