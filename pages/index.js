@@ -69,7 +69,7 @@ export default function homepage() {
                 </a>
               </Link>
             </div>
-            <div className="mx-2 sm:my-12 sm:max-w-sm">
+            <div className="mx-auto sm:my-12 sm:max-w-sm">
               <img
                 src={item.image}
                 alt=""
