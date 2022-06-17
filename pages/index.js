@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import React from 'react';
 import Link from 'next/link';
 
 const mockData = [
@@ -41,12 +40,7 @@ const mockData = [
   },
 ];
 
-ReactGA.initialize('UA-232331283-1');
-
 export default function homepage() {
-  useEffect(() => {
-    ReactGA.pageview('/');
-  }, []);
   return (
     <>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
