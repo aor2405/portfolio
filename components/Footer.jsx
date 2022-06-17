@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import GitHub from './logos/GitHub';
 import LinkedIn from './logos/LinkedIn';
+import Dev from './logos/Dev';
 
 export default function Footer() {
   return (
@@ -12,6 +13,13 @@ export default function Footer() {
           <GitHub />
         </a>
       </Link>
+      <div className="ml-4">
+        <Link href="https://dev.to/aor2405">
+          <a>
+            <Dev />
+          </a>
+        </Link>
+      </div>
       <div className="ml-4">
         <Link href="https://linkedin.com/in/adam-o-reilly-js">
           <a>

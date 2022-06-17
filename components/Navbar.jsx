@@ -3,9 +3,12 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Link from 'next/link';
 
 const navigation = [
-  { name: 'About', href: '#', current: true },
-  { name: 'Contact', href: '#', current: false },
-  { name: 'Resume', href: '#', current: false },
+  { name: 'About Me', href: '/about', current: true },
+  {
+    name: 'Resume',
+    href: 'https://drive.google.com/file/d/1zM6yV9vTbu-GWzKaTnQFpCwbFGLTtInO/view?usp=sharing',
+    current: false,
+  },
 ];
 
 function classNames(...classes) {
@@ -31,7 +34,7 @@ export default function Example() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="px-3 py-2 rounded-md text-lg font-medium font-paragraph"
+                        className="px-3 rounded-md text-lg font-medium font-paragraph"
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
