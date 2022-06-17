@@ -7,7 +7,7 @@ import Dev from './logos/Dev';
 
 export default function Footer() {
   return (
-    <div className="flex justify-center mb-6 mt-6">
+    <div className="flex justify-center my-8">
       <Link href="https://github.com/aor2405">
         <a>
           <GitHub />
