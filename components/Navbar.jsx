@@ -21,9 +21,9 @@ export default function Example() {
             <div className="relative flex items-center justify-between h-16">
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <Link href="/">
-                  <p className="text-xl font-paragraph text-yellow-500 w-52 cursor-pointer ">
+                  <a className="text-xl font-paragraph text-yellow-500 w-52 cursor-pointer ">
                     Adam O'Reilly
-                  </p>
+                  </a>
                 </Link>
                 <div className="w-full my-auto sm:ml-6 hidden sm:block">
                   <div className="flex justify-end space-x-4">

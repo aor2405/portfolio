@@ -8,7 +8,7 @@ export default function ryeRiverElectronics() {
   return (
     <>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <h1 className="mt-6 text-3xl font-header font-bold text-sky-900 sm:text-5xl sm:mt-12">
+        <h1 className="mt-2 text-3xl font-header font-bold text-sky-900 sm:text-5xl">
           Rye River Electronics
         </h1>
         <h3 className="mt-6 text-xl font-paragraph sm:text-2xl">
@@ -22,7 +22,7 @@ export default function ryeRiverElectronics() {
             </a>
           </Link>
           <Link href="https://github.com/aor2405/Ecommerce-Website">
-            <a className="underline text-sky-600 font-paragraph text-lg sm:text-xl sm:ml-4 ">
+            <a className="underline text-sky-600 font-paragraph text-lg sm:text-xl sm:ml-4">
               <p>Link to GitHub repository</p>
             </a>
           </Link>
@@ -30,7 +30,7 @@ export default function ryeRiverElectronics() {
 
         <div className="mx-auto mt-6">
           <img
-            src=" https://res.cloudinary.com/dd2duttda/image/upload/v1654677904/Screenshot_2022-06-08_at_12.40.38_xljaqd.png"
+            src="https://res.cloudinary.com/dd2duttda/image/upload/v1654677904/Screenshot_2022-06-08_at_12.40.38_xljaqd.png"
             alt=""
             className="mt-4 mx-auto border border-slate-200 rounded-xl sm:mt-0"
           />

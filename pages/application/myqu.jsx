@@ -42,12 +42,14 @@ export default function Myqu() {
           <h3 className="text-3xl font-header text-center col-span-4 sm:text-4xl sm:text-left">
             Project Overview
           </h3>
-          <p className="text-xl font-light font-paragraph col-span-8 mx-2 mt-4 sm:mt-0 sm:text-2xl">
-            I started my software developer career with MyQu in May 2021. With
-            MyQu, organisations evolve their hiring approach to one that is
-            about people and business drivers. MyQu helps de-risk recruitment
-            processes, hire more diverse candidates by removing bias, and map
-            candidate motivations with organisational values and culture.
+          <p className="text-xl font-light  font-paragraph col-span-8 mx-2 mt-4 sm:mt-0 sm:text-2xl">
+            I started my software developer career with Codú Community working
+            for a client with the MyQu application in May 2021. I worked through
+            the MMP stage of the product. With MyQu, organisations evolve their
+            hiring approach to one that is about people and business drivers.
+            MyQu helps de-risk recruitment processes, hire more diverse
+            candidates by removing bias, and map candidate motivations with
+            organisational values and culture.
           </p>
         </div>
 
@@ -65,7 +67,7 @@ export default function Myqu() {
             Challenges Faced
           </h3>
           <div className="col-span-8">
-            <p className="mx-2 text-xl font-light font-paragraph mt-4 sm:mt-0 sm:text-2xl">
+            <p className="text-xl font-light font-paragraph mt-4 sm:mt-0 sm:text-2xl">
               The biggest challenge I faced when starting with MyQu was getting
               accustomed with the tech stack that was used to build the project.
               I had little experience with React at that point but had never
@@ -74,13 +76,13 @@ export default function Myqu() {
               tutorial courses to get to a standard level where I could begin
               working on the application.
             </p>
-            <p className="mx-2 mt-6 text-xl font-light font-paragraph sm:text-2xl">
+            <p className="mt-6 text-xl font-light font-paragraph sm:text-2xl">
               After my onboarding process, I worked closely with the lead
               developer and the design team to implement front-end designs that
               where created. This is where I got to put my newly acquired skills
               into practise.
             </p>
-            <p className="mx-2 mt-6 text-xl font-light font-paragraph sm:text-2xl">
+            <p className="mt-6 text-xl font-light font-paragraph sm:text-2xl">
               The biggest benefit I got from working with MyQu was being part of
               a small two man development team. This allowed me to work
               alongside the lead developer who constantly encouraged me to take
@@ -95,18 +97,18 @@ export default function Myqu() {
           <img
             src="https://res.cloudinary.com/dd2duttda/image/upload/v1655116310/Screenshot_2022-06-13_at_14.30.59_u1wmam.png"
             alt="Example of page layout"
-            className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl hidden sm:block sm:mt-0 "
+            className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl hidden sm:block sm:mt-0"
           />
-          <div className="sm:mx-12">
+          <div className="sm:ml-12">
             <h3 className="text-3xl font-header text-center mt-4 sm:mt-0 sm:text-4xl sm:text-left">
               Onboarding flow
             </h3>
             <img
               src="https://res.cloudinary.com/dd2duttda/image/upload/v1655116310/Screenshot_2022-06-13_at_14.30.59_u1wmam.png"
               alt="Example of page layout"
-              className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl block sm:hidden sm:mt-0 "
+              className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl block sm:hidden sm:mt-0"
             />
-            <p className="mx-2 text-xl font-light font-paragraph mt-4 sm:mt-6 sm:text-2xl">
+            <p className="text-xl font-light font-paragraph mt-4 sm:mt-6 sm:text-2xl">
               When a user creates an account on MyQu, they are sent to the
               onboarding flow. Through this, they can give some details about
               the company they work for, invite members of their staff to the
@@ -116,14 +118,16 @@ export default function Myqu() {
         </div>
 
         <div className="grid-cols-2 mt-6 sm:grid sm:mt-20">
-          <div className="sm:mx-12">
-            <h3 className="text-3xl ">Page Layout</h3>
+          <div className="sm:mr-12">
+            <h3 className="text-3xl font-header text-center mt-4 sm:mt-0 sm:text-4xl sm:text-left">
+              Positions and candidate profile
+            </h3>
             <img
               src="https://res.cloudinary.com/dd2duttda/image/upload/v1655116310/Screenshot_2022-06-13_at_14.30.42_d3zofr.png"
               alt="Example of page layout"
               className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2x block sm:hidden sm:mt-0"
             />
-            <p className="mx-2 text-xl font-light mt-6 font-paragraph sm:text-2xl">
+            <p className="text-xl font-light mt-6 font-paragraph sm:text-2xl">
               A user of the application has the ability to create a position for
               an area they are hiring in. When a candidate applies for a job,
               there information is held within this position.
@@ -142,19 +146,19 @@ export default function Myqu() {
             alt="Example of page layout"
             className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl sm:mt-0"
           />
-          <p className="mx-2 text-xl font-light mt-6 font-paragraph sm:text-2xl sm:ml-12">
+          <p className="text-xl font-light mt-6 font-paragraph sm:text-2xl sm:ml-12">
             The user then has the ability to click into a candidates profile
             page that will display the candidates data. If the hiring team are
             interested in the candidate, they have request an interview where
             the candidate will receive and email of interest along with a quick
-            2 - 3 minute assessment to gather further information on that
+            4 - 5 minute assessment to gather further information on that
             candidate. After this has been completed, the hiring team will
             receive a report detailing the candidates personality traits.
           </p>
         </div>
 
         <div className="grid-cols-2 my-12 sm:grid sm:my-20">
-          <div className="sm:mx-12">
+          <div className="sm:mr-12">
             <h3 className="text-3xl font-header text-center sm:text-4xl sm:text-left">
               Candidates overview
             </h3>
@@ -176,20 +180,58 @@ export default function Myqu() {
           />
         </div>
 
-        {/* <div className="grid grid-cols-2 my-20">
+        <div className="grid-cols-2 my-12 sm:grid sm:my-20">
           <img
-            src="https://res.cloudinary.com/dd2duttda/image/upload/v1654677904/Screenshot_2022-06-08_at_12.43.37_ne5s7v.png"
-            alt="Example of page layout"
-            className=" mt-4 mx-auto sm:mt-0 border border-slate-200 rounded-xl shadow-2xl"
+            src="https://res.cloudinary.com/dd2duttda/image/upload/v1655375992/Screenshot_2022-06-16_at_11.38.14_bn7vgp.png"
+            alt="Example of passwordless login layout"
+            className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl hidden sm:mt-0 sm:block"
           />
-          <div className="mx-12">
-            <h3 className="text-3xl">Stripe payments</h3>
-            <p className="text-2xl font-light mt-6 text-red-500">
-              Payments are carried out externally and securely through the use
-              of the Stripe API.
+          <div className="sm:mx-12">
+            <h3 className="text-3xl font-header text-center sm:text-4xl sm:text-left">
+              Passwordless login
+            </h3>
+            <img
+              src="https://res.cloudinary.com/dd2duttda/image/upload/v1655375992/Screenshot_2022-06-16_at_11.38.14_bn7vgp.png"
+              alt="Example of passwordless login layout"
+              className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl block sm:mt-0 sm:hidden"
+            />
+            <p className="text-xl font-light mt-6 font-paragraph sm:text-2xl">
+              This function was carried out by using NextAuth and Amazon SES.
+              NextAuth is a complete authenication solution for NextJs
+              applications. A big feature of NextAuth is that it comes with
+              built in support for many popular sign-in services and it also
+              supports email/passwordless authenication.
+            </p>
+            <p className="text-xl font-light mt-6 font-paragraph sm:text-2xl">
+              The applications email functionality was carried out with Amazons
+              SES(simple email service). Amazon SES is a cost-effective,
+              flexible and scalable email service that allows developers to sent
+              emails from within there application.
             </p>
           </div>
-        </div> */}
+        </div>
+
+        <div className="grid-cols-2 my-12 sm:grid sm:my-20">
+          <div className="sm:mr-12">
+            <h3 className="text-3xl font-header text-center sm:text-4xl sm:text-left">
+              Database migration
+            </h3>
+            <img
+              src="https://res.cloudinary.com/dd2duttda/image/upload/v1655116310/Screenshot_2022-06-13_at_14.27.59_lea5rv.png"
+              alt="Example of database results"
+              className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl block sm:hidden sm:mt-0"
+            />
+            <p className="text-xl font-light mt-6 font-paragraph sm:text-2xl">
+              Completed a full migration from a MongoDB database to a postgreSQL
+              database.
+            </p>
+          </div>
+          <img
+            src="https://res.cloudinary.com/dd2duttda/image/upload/v1655116310/Screenshot_2022-06-13_at_14.27.59_lea5rv.png"
+            alt="Example of database results"
+            className="mt-4 mx-auto border border-slate-200 rounded-xl shadow-2xl hidden sm:block sm:mt-0"
+          />
+        </div>
       </div>
     </>
   );

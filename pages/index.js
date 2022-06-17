@@ -7,7 +7,7 @@ const mockData = [
     description: 'De-risk your hiring with data',
     href: '/application/myqu',
     image:
-      'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
+      'https://res.cloudinary.com/dd2duttda/image/upload/v1655116311/Screenshot_2022-06-13_at_14.31.34_aykl6f.png',
     style:
       'max-w-7xl border rounded-2xl py-2 bg-gradient-to-r from-cyan-50 to-teal-100 mt-12 sm:grid sm:grid-cols-2 sm:my-12',
   },
@@ -55,10 +55,10 @@ export default function homepage() {
         {mockData.map((item, idx) => (
           <div key={idx} className={item.style}>
             <div className="mt-2 ml-2 sm:my-12 sm:ml-8">
-              <h2 className="text-xl text-center font-header sm:text-left">
+              <h2 className="text-4xl text-center font-header sm:text-left">
                 {item.title}
               </h2>
-              <p className="text-4xl text-center font-paragraph mx-2 mt-2 sm:text-left sm:mx-0 sm:mt-3">
+              <p className="text-xl text-center italic font-paragraph mx-2 mt-2 sm:text-left sm:mx-0 sm:mt-3">
                 {item.description}
               </p>
               <Link href={item.href}>
