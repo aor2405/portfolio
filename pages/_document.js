@@ -30,10 +30,6 @@ class CustomDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-BCEXXXXM5K"
-          ></script>
         </body>
       </Html>
     );
